@@ -16,7 +16,7 @@ struct MarsPhotoReference: Codable {
     
     let imageURL: URL
     
-    enum CodingKeys: String, CodingKey {
+    enum CodingKeys: String, CodingKey { 
         case id
         case sol
         case camera
